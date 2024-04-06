@@ -35,8 +35,9 @@ input[type="checkbox"] {
   padding: 20px;
   width: 320px;
   max-width: 100%;
-  border-style:double;
-  border-radius: 10px
+  border-radius: 10px;
+  border:1px solid;
+  
 }
 
 .result-container {
@@ -74,12 +75,13 @@ input[type="checkbox"] {
 .btn {
   border: 1px solid;
   border-radius: 10px;
-  color: #fff7f7;
+  border-color: #8180c6;
+  color: #fcf9f9;
   cursor: pointer;
   font-size: 15px;
   padding: 8px 12px;
   background-color: #2a4bc5;
-  transition: background-color 0.3s; 
+  transition: background-color 0.7s; 
 }
 
 .btn:hover {
